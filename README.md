@@ -22,3 +22,5 @@ python -m pytest -q
 
 The tests show three useful pytest ideas: plain assertions, parameterized tests,
 and checking expected exceptions with `pytest.raises`.
+
+test
