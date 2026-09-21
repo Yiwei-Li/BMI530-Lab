@@ -16,8 +16,8 @@ def check_guess(secret: int, guess: int) -> str:
 
 def play_game(secret: int | None = None) -> None:
 	"""Play until the user guesses the secret number."""
-	secret = secret if secret is not None else random.randint(1, 10)
-	print("I am thinking of a number from 1 to 10.")
+	secret = secret if secret is not None else random.randint(1, 20)
+	print("I am thinking of a number from 1 to 20.")
 
 	while True:
 		try:
