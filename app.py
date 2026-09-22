@@ -6,7 +6,7 @@ import random
 def check_guess(secret: int, guess: int) -> str:
 	"""Return a hint for a guess."""
 	if guess < 1 or guess > 10:
-		raise ValueError("guess must be between 1 and 10")
+		raise ValueError("guess must be between 1 and 20")
 	if guess < secret:
 		return "too low"
 	if guess > secret:
